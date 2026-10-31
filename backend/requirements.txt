@@ -1,0 +1,9 @@
+
+fastapi
+uvicorn[standard]
+google-genai
+python-dotenv
+chromadb
+python-multipart
+twilio
+pydantic
