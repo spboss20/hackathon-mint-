@@ -1,0 +1,1 @@
+export default function PageHeader({title,subtitle,action}){return <div className="mb-7 flex flex-wrap items-end justify-between gap-4"><div><h1 className="text-[26px] font-extrabold tracking-tight text-[#17233f]">{title}</h1><p className="mt-1 text-sm text-slate-500">{subtitle}</p></div>{action}</div>}

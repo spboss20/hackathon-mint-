@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+:root{font-family:Inter,sans-serif;color:#17233f;background:#f4f7fc;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}html,body,#root{min-height:100%;margin:0}body{min-width:320px;background:#f4f7fc}button,input,select,textarea{font:inherit}button{cursor:pointer}a{color:inherit;text-decoration:none}
+.card{background:#fff;border:1px solid #e4ebf7;border-radius:16px;box-shadow:0 5px 18px rgba(30,64,125,.045)}
+.field{width:100%;border:1px solid #dce5f2;border-radius:10px;background:white;padding:11px 13px;color:#17233f;outline:none}.field:focus{border-color:#4d83ff;box-shadow:0 0 0 3px #3b82f61f}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:10px;padding:10px 16px;color:white;background:linear-gradient(135deg,#2563eb,#3978f6);font-weight:600}
+.btn-light{display:inline-flex;align-items:center;gap:8px;border:1px solid #dce5f2;background:white;color:#344563;border-radius:10px;padding:9px 14px;font-weight:600}
+@media(max-width:640px){.page{padding:18px!important}}
